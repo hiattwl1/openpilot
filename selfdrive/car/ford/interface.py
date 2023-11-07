@@ -62,10 +62,9 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 2000
 
     elif candidate == CAR.F_150_LIGHTNING_MK1:
-      ret.wheelbase = 3.69
-      ret.steerRatio = 17.0
-      ret.mass = 2729
-      
+      ret.wheelbase = 3.7
+      ret.steerRatio = 16.9
+      ret.mass = 2948      
       ret.longitudinalTuning.kpBP = [0.]
       ret.longitudinalTuning.kpV = [0.5]
       ret.longitudinalTuning.kiV = [0.]
